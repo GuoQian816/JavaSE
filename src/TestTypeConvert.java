@@ -1,0 +1,18 @@
+/**
+ * 测试自动类型转化
+ * @author Administrator
+ *
+ */
+public class TestTypeConvert {
+	public static void main(String[] args){
+		int a = 324;
+		long b = a;
+		double d = b;
+		//a = b
+		//long e = 3.23F;
+		float f = 234342L;
+		
+		//特例  int转short,byte不超过范围即可
+		byte b2 = 123;
+	}
+}
